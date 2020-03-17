@@ -1,6 +1,6 @@
 {
 	"name": "@mmstudio/an000024",
-	"version": "1.0.202003171029",
+	"version": "1.0.202003171131",
 	"description": "excel转json",
 	"scripts": {
 		"test": "tsc && ava ./tests/*.js",
