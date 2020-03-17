@@ -2,7 +2,7 @@
 	/**
 	 * ${0:变量注释}
 	 */
-	const r$CURRENT_SECONDS_UNIX = await(() => {
-		const p1 = $1;	// 参数注释
+	const r$CURRENT_SECONDS_UNIX = (() => {
+		const p1 = $1;	// 文件内容,Buffer
 		return an24(p1);
 	})();
